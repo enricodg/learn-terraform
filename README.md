@@ -63,7 +63,7 @@ Here are some commonly used block types:
 | resource   | Describes one or more infrastructure objects, such as virtual networks, compute instances, or higher-level components such as DNS records |
 | data       | Allow Terraform to use information defined outside of Terraform, defined by another separate Terraform configuration, or modified by functions |
 | provider   | Allow Terraform to interact with cloud providers, SaaS providers, and other APIs |
-| input      | To customize aspects of Terraform modules without altering the module's own source code |
+| variable   | To customize aspects of Terraform modules without altering the module's own source code |
 | output     | Give information about your infrastructure available on the command line, and can expose information for other Terraform configurations to use |
 | locals     | Assigns a name to an expression, so you can use it multiple times within a module without repeating it |
 | module     | Containers for multiple resources that are used together |
@@ -78,4 +78,12 @@ The following playbook will require access to GCP console. Please get your [serv
 export GOOGLE_CREDENTIALS=`cat ~/path/to/your/key.json`  
 ```
 
-1. Getting started
+### 1. [Getting Started](1-getting-started)  
+Contains basic explaination of basic terraform structure, provider, and resource.
+### 2. [Data, Variable, Output, Local](2-data-variable-output-local/)
+Introducing data, variable (input), output, and local use case.
+### 3. [Consume & Create Module]() [TODO]
+Demonstrates how to consume widely available module, and create module to make it reusable.
+### 4. [Multiple Environment]() [TODO]
+Example of managing multiple environments using Terraform.
+### 5. [CI/CD with GitHub Actions]() [TODO]
