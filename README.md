@@ -84,5 +84,8 @@ Contains basic explaination of basic terraform structure, provider, and resource
 Introducing data, variable (input), output, and local use case.
 ### 3. [Consume & Create Module](3-consume-and-create-module)
 Demonstrates how to consume widely available module, and create module to make it reusable.
-### 4. [Multiple Environment]() [TODO]
-Example of managing multiple environments using Terraform.
+### 4. [State](4-state)
+Shows how state is very useful when you're working in a team.
+### 5. [Multiple Environments](5-multiple-environments)
+Methods of managing multiple environments using Terraform.
+
