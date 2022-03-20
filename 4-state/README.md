@@ -11,7 +11,7 @@ One way of saving the state is by storing it to GCS/S3 bucket, which shouldn't c
 
 Note: If you wish not to review the plan, add the `-auto-approve` flag when applying/destroying changes.
 
-## Explaination
+## Explanation
 In this playbook, if you try to run `$ terraform init` it will not generate a `terraform.tfstate` file locally, since it will be stored to GCS. Don't forget that you'll need to create the bucket for it and it's recommended to enable object versioning in case any unexpected things happen.  
 
 To verify your lock is working, you can try to run the `$ terraform apply` concurrently, and it will shows you the following error:

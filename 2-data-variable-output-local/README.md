@@ -9,7 +9,7 @@ This playbook will introduce the usage of data, variable, and output.
 
 Note: If you wish not to review the plan, add the `-auto-approve` flag when applying/destroying changes.
 
-## Explaination
+## Explanation
 
 ### 1. Data
 As seen on `datas.tf` file:

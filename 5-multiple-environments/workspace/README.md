@@ -41,6 +41,6 @@ To delete a workspace, use:
 $ terraform workspace delete [workspace_name]
 ```
 
-## Explaination
+## Explanation
 Once you've done applying your Terraform code for each workspace, try to navigate the GCS bucket and you'll see how Terraform stores each workspace state in different files. Below is my example:
 ![gcs-workspace](../../assets/gcs-workspace.png "gcs-workspace")

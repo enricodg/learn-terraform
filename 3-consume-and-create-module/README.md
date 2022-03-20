@@ -10,7 +10,7 @@ This playbook will show the usage of `module` that has the purpose of reusabilit
 
 Note: If you wish not to review the plan, add the `-auto-approve` flag when applying/destroying changes.
 
-## Explaination
+## Explanation
 [app](app) directory is the root module consisting of two child modules ([1 VM instance with NGINX](modules/my-app), and [1 postgresql database instance](modules/google-cloud-sql)). 
 ### 1. Root Module
 As seen on [app/main.tf](app/main.tf):

@@ -9,7 +9,7 @@ This playbook is to give an overview of how to write Terraform code.
 
 Note: If you wish not to review the plan, add the `-auto-approve` flag when applying/destroying changes.
 
-## Explaination
+## Explanation
 The `terraform` block is an optional block which is used to let Terraform knows which provider version will be used. `~>` is to state that the version used is at least or greater than 4.14.0.
 ```
 terraform {

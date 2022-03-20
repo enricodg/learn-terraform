@@ -79,7 +79,7 @@ export GOOGLE_CREDENTIALS=`cat ~/path/to/your/key.json`
 ```
 
 ### 1. [Getting Started](1-getting-started)  
-Contains basic explaination of basic terraform structure, provider, and resource.
+Contains basic explanation of basic terraform structure, provider, and resource.
 ### 2. [Data, Variable, Output, Local](2-data-variable-output-local)
 Introducing data, variable (input), output, and local use case.
 ### 3. [Consume & Create Module](3-consume-and-create-module)
