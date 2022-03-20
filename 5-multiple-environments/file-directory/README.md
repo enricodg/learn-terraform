@@ -1,5 +1,5 @@
 # File Directory
-As seen in this directory file structure:
+With this approach we need to make the Terraform code as modules so it will simplify when we're trying to create a new environment, the example is seen in this directory file structure:
 ```
 .
 ├── modules
