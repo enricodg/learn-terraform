@@ -88,4 +88,7 @@ Demonstrates how to consume widely available module, and create module to make i
 Shows how state is very useful when you're working in a team.
 ### 5. [Multiple Environments](5-multiple-environments)
 Methods of managing multiple environments using Terraform.
-
+### 6. [Provisioning GCP GKE](6-provisioning-gcp-gke)
+Demonstrate how to provision Kubernetes cluster on GCP using GKE
+### 7. [Provisioning AWS EKS](7-provisioning-aws-eks)
+Demonstrate how to provision Kubernetes cluster on AWS using EKS
