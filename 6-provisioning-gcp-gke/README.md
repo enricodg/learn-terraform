@@ -1,6 +1,6 @@
 # 6. Provisioning GCP GKE
 
-This playbook demonstrates how to provision kubernetes cluster in Google Cloud Platform. It includes 1 cluster, 1 node, 1 service, 1 pod. Before going through this playbook, you may want to understand [Kubernetes](https://kubernetes.io/) and [GKE](https://cloud.google.com/kubernetes-engine).  
+This playbook demonstrates how to provision Kubernetes cluster in Google Cloud Platform. It includes 1 cluster, 1 node, 1 service, 1 pod. Before going through this playbook, you may want to understand [Kubernetes](https://kubernetes.io/) and [GKE](https://cloud.google.com/kubernetes-engine).  
 Please take a note since this is just demo, [modules/kube](modules/kube) configurations are mostly hard-coded in the code, in practice please make it into variables.
 
 ## Step to Execute

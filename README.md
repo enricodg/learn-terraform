@@ -90,5 +90,5 @@ Shows how state is very useful when you're working in a team.
 Methods of managing multiple environments using Terraform.
 ### 6. [Provisioning GCP GKE](6-provisioning-gcp-gke)
 Demonstrate how to provision Kubernetes cluster on GCP using GKE
-### 7. [Provisioning AWS EKS](7-provisioning-aws-eks)
+### 7. [Provisioning AWS EC2](7-provisioning-aws-ec2)
 Demonstrate how to provision Kubernetes cluster on AWS using EKS
