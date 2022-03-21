@@ -20,4 +20,4 @@ In [modules/kube](modules/kube) you can see that it's just a normal Kubernetes d
 
 To checkout whether the NGINX is succfessfully deployed, go through your web browser and open the IP address from `$ terraform apply` output or by taking a look at your GCP console.  
 
-Please remember to always read the documentation from the [registry](https://registry.terraform.io/) which is very helpful to guide you about everything.
+For practice purposes, you can try to create Kubernetes deployment with multiple cluster, configuring load balancer, and auto-scaler. Please remember to always read the documentation from the [registry](https://registry.terraform.io/) which is very helpful to guide you about everything.
